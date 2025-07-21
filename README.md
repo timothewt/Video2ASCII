@@ -29,9 +29,9 @@ make
 
 ## To Do
 
-- Optimize the program using pre-allocated buffers
+- Restructure class (split rendering from logic)
 - Save the ASCII video (GIF ?)
-- Play the video sound
+- Keyboard control (play/pause)
 
 ## License
 
