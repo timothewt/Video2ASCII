@@ -1,4 +1,4 @@
-#include "asciiconverter.hpp"
+#include "asciiplayer.hpp"
 #include <opencv2/opencv.hpp>
 #include <stdexcept>
 
@@ -12,8 +12,8 @@ int main(int argc, char** argv)
     else
         width = 80;
 
-    ASCIIConverter ascii_converter = ASCIIConverter(argv[1], width);
-    ascii_converter.run();
+    ASCIIPlayer ascii_player = ASCIIPlayer(argv[1], width);
+    ascii_player.play();
 
     return 0;
 }

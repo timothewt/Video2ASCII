@@ -1,4 +1,4 @@
-# Video2ASCII 
+# Video2ASCII
 
 CLI tool that converts a video into ASCII characters.
 
@@ -29,7 +29,6 @@ make
 
 ## To Do
 
-- Restructure class (split rendering from logic)
 - Save the ASCII video (GIF ?)
 - Keyboard control (play/pause)
 
