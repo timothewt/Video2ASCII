@@ -42,4 +42,12 @@ private:
      * @return The equivalent character depending on the pixel's brightness.
      */
     char pixel_to_char(uchar pixel);
+    /**
+     * @brief Constructs the string with RGB colors escape codes given the pixel colors.
+     *
+     * @param character The character to returned colored.
+     * @param pixel The BGR values of the pixel.
+     * @return The character with the colored escape code around.
+     */
+    std::string get_colored_char(char character, cv::Vec3b pixel);
 };
