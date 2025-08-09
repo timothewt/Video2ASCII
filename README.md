@@ -1,6 +1,6 @@
 # Video2ASCII
 
-CLI tool that converts a video into ASCII characters.
+CLI tool that converts a video into ASCII characters. This allows you to play any video in the console, either for fun or for convenience, e.g., when you're connected to a remote via SSH.
 
 ## How to use
 
@@ -22,6 +22,12 @@ make
 ```
 ./video2ascii /path/to/video.mp4
 ```
+
+## Demonstration
+
+| Input | Result |
+|-------|--------|
+|![Input](./assets/input.gif)|![Result](./assets/result.gif)|
 
 ## Dependencies
 
